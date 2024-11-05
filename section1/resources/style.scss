@@ -32,22 +32,24 @@
     .menu-1 {
         margin-left: auto;
 
-        >ul {
+        >.menu {
             display: flex;
             height: 100%;
 
-            >li {
-                >a {
-                    font-size: 1rem;
-                    display: flex;
-                    height: 100%;
-                    align-items: center;
-                    padding: 0 20px;
-                }
-
-                &:hover>a {
-                    text-decoration: underline;
-                }
+            >.menu{
+                &-item {
+                    >a { 
+                        font-size: 1rem;
+                        display: flex;
+                        height: 100%;
+                        align-items: center;
+                        padding: 0 20px;
+                    }
+    
+                    &:hover>a {
+                        text-decoration: underline;
+                    }
+                } 
             }
         }
     }
