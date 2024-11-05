@@ -1,0 +1,31 @@
+@use 'reset';
+
+@mixin response-con($breakpoint){
+    @if $breakpoint == medium {
+        @media(1150px >= width > 750px){
+            @content;
+        }
+    }
+    @else if $breakpoint == small {
+        @media(750px >= width){
+            @content;
+        }
+    }
+}
+
+.top-bar{
+    .con {
+        max-width:1200px;
+        background:lightcoral;
+        
+        @include response-con(medium){
+            max-width:900px; 
+            background: lightblue; 
+        } 
+
+        @include response-con(small){
+            max-width:500px;
+            background: lightgreen;  
+        }
+    }
+}
