@@ -33,7 +33,25 @@ a {
 }
 
 .btn-2 {
-  width: 150px;
+  width: 200px;
+  height: 70px;
+  background: red;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.btn-2:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.btn-3 {
+  width: 120px;
   height: 50px;
   background: #afafaf;
   border: 2px solid black;
@@ -44,9 +62,26 @@ a {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 10px;
-  background: #dfdfdf;
 }
-.btn-2:hover {
+.btn-3:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.btn-4 {
+  width: 150px;
+  height: 50px;
+  background: blue;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.btn-4:hover {
   text-decoration: underline;
   text-underline-position: under;
 }
