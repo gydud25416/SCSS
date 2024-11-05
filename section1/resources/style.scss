@@ -1,0 +1,11 @@
+@use 'var';
+
+div {
+    width: 200px;
+    height: 200px;
+    background: var.$bg-color;
+
+    &:hover {
+        background: var.$bg-hover;
+    }
+}

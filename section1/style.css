@@ -1,0 +1,10 @@
+div {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+div:hover {
+  background: lightgreen;
+}
+
+/*# sourceMappingURL=style.css.map */
