@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html > body {
+  font-family: "GmarketSansMedium";
+  text-underline-position: under;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-1 {
+  width: 150px;
+  height: 50px;
+  background: #afafaf;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.btn-1:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.btn-2 {
+  width: 150px;
+  height: 50px;
+  background: #afafaf;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: #dfdfdf;
+}
+.btn-2:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+/*# sourceMappingURL=style.css.map */

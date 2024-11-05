@@ -1,0 +1,31 @@
+@use 'reset';
+
+// @mixin : 믹스인 정의
+@mixin common-btn() {
+    width: 150px;
+    height: 50px;
+    background: #afafaf;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    &:hover{
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+}
+
+// @include : 믹스인 호출
+.btn-1 {
+    @include common-btn;
+} 
+
+.btn-2 { 
+    @include common-btn; 
+    background: #dfdfdf; // 기본 믹스인보다 우선순위가 높다.(뒤에 쓰였기 때문)
+}
